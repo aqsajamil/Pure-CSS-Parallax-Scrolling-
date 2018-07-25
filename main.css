@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background: url(images/9.JPEG);
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "luna";
+    
+}
+.first{
+    text-shadow: 1px 2px salmon;
+    text-align: center;
+   color:palegreen;
+    width: 450px;
+    height: 100px;
+    background:seagreen;
+    -webkit-transition: width 3s; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: width 4s;
+    transition-timing-function: linear;
+    margin-top: 6px;
+}
+.first:hover {
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.poetry{
+    text-align: center;
+    color: lightgoldenrodyellow;
+}

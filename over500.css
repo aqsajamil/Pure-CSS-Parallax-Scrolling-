@@ -1,0 +1,16 @@
+@media screen and (max-width: 300px){
+    p{
+        font-size: 100%;
+        line-height: 160%;
+    }
+  
+   }
+   
+
+
+@media screen and (min-width:900px) {
+   body {background-color:seagreen;
+    background-size: cover;
+    height: 100%;
+    width: 100%;}
+}
